@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: running-information-analysis-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/runningInfo_db
+    password: root
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
