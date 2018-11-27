@@ -16,6 +16,7 @@ it basically has following API endpoint:
 
 1. `docker-compose up -d`
 2. go to main folder(in my case */running-information-analysis-service*), and `mvn clean install`
+3. go to `/target` folder and run `java -jar <your_application_name.jar>`
 
 now up and run~
 
